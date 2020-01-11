@@ -4,7 +4,7 @@ project(demo VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(demo main.c)
+add_executable(demo file_copy.c)
 add_test(test-demo demo)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
